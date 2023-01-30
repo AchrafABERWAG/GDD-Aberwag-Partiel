@@ -1,0 +1,1 @@
+SELECT email, arrival_date, date_of_departure , AVG(number_of_people) FROM client WHERE budget > 1000 group by id;
