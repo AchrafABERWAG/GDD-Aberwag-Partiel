@@ -1,7 +1,5 @@
 # GDD-Aberwag-Partiel
 
-# GDD-Aberwag-Partiel
-
 J'ai choisi d'utiliser une base de donnees telle que celle-ci pour plusieurs raisons. Tout d'abord, elle permet de stocker et d'organiser de grandes quantites de donnees de maniere efficace et structuree. De plus, elle offre des fonctionnalites de recherche et d'analyse avancees qui facilitent la recuperation et l'utilisation des informations stockees. Enfin, les bases de donnees peuvent etre facilement partagees et mises e jour par plusieurs utilisateurs, ce qui les rend ideales pour les projets en equipe ou les entreprises. Et donc l'aide des donnees que j'ai injecte dans la base de donnees destinee e la chaine d'hetel "TheHotels" 
 
 Voici les demarches detaillees que jeai suivi pour la creation de la base de donnees pour la chaene TheHotels :
