@@ -1,4 +1,3 @@
-
 SELECT * 
 FROM billing 
 JOIN reservation 
