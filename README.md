@@ -1,17 +1,29 @@
 # GDD-Aberwag-Partiel
 
-What is Lorem Ipsum?
+# GDD-Aberwag-Partiel
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-Why do we use it?
+J'ai choisi d'utiliser une base de données telle que celle-ci pour plusieurs raisons. Tout d'abord, elle permet de stocker et d'organiser de grandes quantités de données de manière efficace et structurée. De plus, elle offre des fonctionnalités de recherche et d'analyse avancées qui facilitent la récupération et l'utilisation des informations stockées. Enfin, les bases de données peuvent être facilement partagées et mises à jour par plusieurs utilisateurs, ce qui les rend idéales pour les projets en équipe ou les entreprises. Et donc à l'aide des données que j'ai injecté dans la base de données destinée à la chaine d'hôtel "TheHotels" 
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Voici les démarches détaillées que j’ai suivi pour la création de la base de données pour la chaîne TheHotels :
 
-Where does it come from?
+    Définir des objectifs : j’ai déterminé les besoins en termes de stockage et d'analyse des données liées à la chaîne d'hôtels, tels que la gestion des réservations, des clients et des informations sur les hôtels. Et pour les déterminer rien de sorcier l’itération est la clé, à force de répéter les objectifs nous arrivons à un objectif concret.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    Analyse des données : j’identifie les différents types de données nécessaires pour atteindre les objectifs définis, tels que les informations sur les clients, les réservations, les services, les chambres, les factures et les employés. Le but de l’analyse c’est d’avoir le plus d’informations possible que ce soit sur les clients, les chambres, les employées il faut vraiment remplir la base de données avec le plus de données.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-Where can I get some?
+    Conception de la base de données :Pour créer une architecture de base de données efficace j’utilise un modèle de données relationnel, qui permet de lier les différentes tables en fonction de leur relation logique. Ainsi la conception de bases de données devient plus simple et plus explicites que si nous l’avions juste fais sans modèle.
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    Choix du SGBD : Décider quel système de gestion de base de données utiliser, en fonction de la taille de la base de données, des fonctionnalités nécessaires et de la facilité d'utilisation. Pour ma part j’ai utilisé PostgreSQL car j’ai un peu plus de facilité avec ce SGBD donc qui dit aisance dit pouvoir pousser le travail plus loin et plus efficacement 
+
+    Mise en place de la base de données : j’ai créé la structure de la base de données en utilisant des outils appropriés, tels que les scripts SQL pour la création de tables, l’insertion de données, les jointures et les requêtes SQL.
+
+    Stockage des données j’ai importé les données nécessaires dans la base de données et s'assurer qu'elles sont organisées de manière cohérente, afin d’avoir une base de données épuré et pouvant tenir une chaine d’hôtel.
+
+    Tests et optimisation : Tester la base de données pour s'assurer de son bon fonctionnement et optimiser les performances en utilisant des requêtes et mise en situation.
+
+Justification des choix :
+
+    Modèle de données relationnel : j’ai choisi ce modèle pour sa capacité à lier les différentes tables en fonction de leur relation logique, ce qui facilite la récupération et l'analyse des données.
+
+    Choix de PostgreSQL : j’ai choisi PostgreSQL pour sa flexibilité, sa facilité d'utilisation et sa grande communauté d'utilisateurs, ce qui facilite la résolution de problèmes éventuels et le fait que j’utilise assez souvent cette base de données m’a aidé pour mon choix.
+
+Queries docs :
