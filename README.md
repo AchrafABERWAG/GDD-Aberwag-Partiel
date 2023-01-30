@@ -2,31 +2,31 @@
 
 # GDD-Aberwag-Partiel
 
-J'ai choisi d'utiliser une base de donnees telle que celle-ci pour plusieurs raisons. Tout d'abord, elle permet de stocker et d'organiser de grandes quantites de donnees de maniere efficace et structuree. De plus, elle offre des fonctionnalites de recherche et d'analyse avancees qui facilitent la recuperation et l'utilisation des informations stockees. Enfin, les bases de donnees peuvent etre facilement partagees et mises e jour par plusieurs utilisateurs, ce qui les rend ideales pour les projets en equipe ou les entreprises. Et donc e l'aide des donnees que j'ai injecte dans la base de donnees destinee e la chaine d'hetel "TheHotels" 
+J'ai choisi d'utiliser une base de donnees telle que celle-ci pour plusieurs raisons. Tout d'abord, elle permet de stocker et d'organiser de grandes quantites de donnees de maniere efficace et structuree. De plus, elle offre des fonctionnalites de recherche et d'analyse avancees qui facilitent la recuperation et l'utilisation des informations stockees. Enfin, les bases de donnees peuvent etre facilement partagees et mises e jour par plusieurs utilisateurs, ce qui les rend ideales pour les projets en equipe ou les entreprises. Et donc l'aide des donnees que j'ai injecte dans la base de donnees destinee e la chaine d'hetel "TheHotels" 
 
 Voici les demarches detaillees que jeai suivi pour la creation de la base de donnees pour la chaene TheHotels :
 
-    Definir des objectifs : jeai determine les besoins en termes de stockage et d'analyse des donnees liees e la chaene d'hetels, tels que la gestion des reservations, des clients et des informations sur les hetels. Et pour les determiner rien de sorcier leiteration est la cle, e force de repeter les objectifs nous arrivons e un objectif concret.
+    Definir des objectifs : j'ai determine les besoins en termes de stockage et d'analyse des donnees liees à la chaine d'hetels, tels que la gestion des reservations, des clients et des informations sur les hotels. Et pour les determiner rien de sorcier l'iteration est la cle, à force de repeter les objectifs nous arrivons à un objectif concret.
 
-    Analyse des donnees : jeidentifie les differents types de donnees necessaires pour atteindre les objectifs definis, tels que les informations sur les clients, les reservations, les services, les chambres, les factures et les employes. Le but de leanalyse ceest deavoir le plus deinformations possible que ce soit sur les clients, les chambres, les employees il faut vraiment remplir la base de donnees avec le plus de donnees.
+    Analyse des donnees : j'identifie les differents types de donnees necessaires pour atteindre les objectifs definis, tels que les informations sur les clients, les reservations, les services, les chambres, les factures et les employes. Le but de l'analyse c'est d'avoir le plus d'informations possible que ce soit sur les clients, les chambres, les employees il faut vraiment remplir la base de donnees avec le plus de donnees.
 
-    Conception de la base de donnees :Pour creer une architecture de base de donnees efficace jeutilise un modele de donnees relationnel, qui permet de lier les differentes tables en fonction de leur relation logique. Ainsi la conception de bases de donnees devient plus simple et plus explicites que si nous leavions juste fais sans modele.
+    Conception de la base de donnees :Pour creer une architecture de base de donnees efficace j'utilise un modele de donnees relationnel, qui permet de lier les differentes tables en fonction de leur relation logique. Ainsi la conception de bases de donnees devient plus simple et plus explicites que si nous l'avions juste fais sans modele.
 
-    Choix du SGBD : Decider quel systeme de gestion de base de donnees utiliser, en fonction de la taille de la base de donnees, des fonctionnalites necessaires et de la facilite d'utilisation. Pour ma part jeai utilise PostgreSQL car jeai un peu plus de facilite avec ce SGBD donc qui dit aisance dit pouvoir pousser le travail plus loin et plus efficacement 
+    Choix du SGBD : Decider quel systeme de gestion de base de donnees utiliser, en fonction de la taille de la base de donnees, des fonctionnalites necessaires et de la facilite d'utilisation. Pour ma part j'ai utilise PostgreSQL car j'ai un peu plus de facilite avec ce SGBD donc qui dit aisance dit pouvoir pousser le travail plus loin et plus efficacement 
 
-    Mise en place de la base de donnees : jeai cree la structure de la base de donnees en utilisant des outils appropries, tels que les scripts SQL pour la creation de tables, leinsertion de donnees, les jointures et les requetes SQL.
+    Mise en place de la base de donnees : j'ai cree la structure de la base de donnees en utilisant des outils appropries, tels que les scripts SQL pour la creation de tables, l'insertion de donnees, les jointures et les requetes SQL.
 
-    Stockage des donnees jeai importe les donnees necessaires dans la base de donnees et s'assurer qu'elles sont organisees de maniere coherente, afin deavoir une base de donnees epure et pouvant tenir une chaine dehetel.
+    Stockage des donnees j'ai importe les donnees necessaires dans la base de donnees et s'assurer qu'elles sont organisees de maniere coherente, afin deavoir une base de donnees epure et pouvant tenir une chaine d'hotel.
 
     Tests et optimisation : Tester la base de donnees pour s'assurer de son bon fonctionnement et optimiser les performances en utilisant des requetes et mise en situation.
 
 Justification des choix :
 
-    Modele de donnees relationnel : jeai choisi ce modele pour sa capacite e lier les differentes tables en fonction de leur relation logique, ce qui facilite la recuperation et l'analyse des donnees.
+    Modele de donnees relationnel : j'ai choisi ce modele pour sa capacite à lier les differentes tables en fonction de leur relation logique, ce qui facilite la recuperation et l'analyse des donnees.
 
-    Choix de PostgreSQL : jeai choisi PostgreSQL pour sa flexibilite, sa facilite d'utilisation et sa grande communaute d'utilisateurs, ce qui facilite la resolution de problemes eventuels et le fait que jeutilise assez souvent cette base de donnees mea aide pour mon choix.
+    Choix de PostgreSQL : j'ai choisi PostgreSQL pour sa flexibilite, sa facilite d'utilisation et sa grande communaute d'utilisateurs, ce qui facilite la resolution de problemes eventuels et le fait que j'utilise assez souvent cette base de donnees cela m'a aide pour mon choix.
 
-Queries docse:
+Queries docs:
 
 Crée des tables et ajouter de la données:
 
